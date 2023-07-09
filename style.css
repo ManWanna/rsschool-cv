@@ -1,0 +1,58 @@
+body {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  background-color: white;
+  margin: 10px 0 0 20px;
+}
+
+h1 {
+  color: indianred;
+  margin: 10px 0;
+}
+
+h2 {
+  color: burlywood;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 0px;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(226, 21, 209);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(70, 109, 161);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: dodgerblue;
+  padding: 20px;
+}
+
+rss {
+  width: 121px;
+  height: 45px;
+  background-image: url('./assets/svg/rss.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
